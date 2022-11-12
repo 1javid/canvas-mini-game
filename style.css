@@ -1,0 +1,26 @@
+#canvas {
+    border: 1px solid black;
+    padding: 0 0 0 0;
+}
+
+.canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colors {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 400px;
+}

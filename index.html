@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Open question</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="buttons">
+            <button class="up">&#8593;</button>
+            <button class="down">&#8595;</button>
+            <button class="left">&#8592;</button>
+            <button class="right">&#8594;</button>
+        </div>
+
+        <canvas class="canvas" id="canvas" width="600px" height="400px"></canvas> <br> <br>
+
+
+        <div class="colors">
+            <span>Canvas background color:</span>
+            <select name="c-bg-color" id="c-bg-color" id="">
+                <option value="" selected>Select</option>
+                <option value="red">Red</option>
+                <option value="purple">Purple</option>
+                <option value="blue">Blue</option>
+                <option value="black">Black</option>
+            </select>
+
+            <span>Disc foreground color:</span>
+            <select name="d-fg-color" id="d-fg-color" id="">
+                <option value="" selected>Select</option>
+                <option value="yellow">Yellow</option>
+                <option value="white">White</option>
+                <option value="orange">Orange</option>
+                <option value="pink">Pink</option>
+            </select>
+
+            <button id="reset">Reset</button>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
